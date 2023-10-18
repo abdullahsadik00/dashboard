@@ -1,0 +1,30 @@
+.progress progress {
+    visibility: hidden;
+    height: 0;
+    width: 0
+}
+
+.progress {
+    width: 155px;
+    height: 155px;
+    border-radius: 50%;
+    background:
+        radial-gradient(closest-side, white 79%, transparent 80% 100%),
+        conic-gradient(hotpink 75%, pink 0);
+}
+
+
+.content__text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.grid-c7-content {
+    display: flex;
+    margin-top: -6px;
+
+    align-items: center;
+    justify-content: center;
+}
