@@ -68,3 +68,10 @@
         height: 240px;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .grid-chart {
+        overflow-x: scroll;
+        column-gap: 20px;
+    }
+}
